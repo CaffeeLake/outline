@@ -153,7 +153,7 @@
     "ipaddr.js": "^2.4.0",
     "is-printable-key-event": "^1.0.0",
     "iso-639-3": "^3.0.1",
-    "js-yaml": "^4.2.0",
+    "js-yaml": "^4.3.2",
     "jsdom": "^22.1.0",
     "jsonwebtoken": "^9.0.3",
     "katex": "^0.16.45",
@@ -173,14 +173,14 @@
     "markdown-it": "^14.3.0",
     "markdown-it-container": "^3.0.0",
     "markdown-it-emoji": "^3.0.0",
-    "mermaid": "11.16.0",
+    "mermaid": "11.16.1",
     "mime-types": "^3.0.2",
     "mobx": "^4.15.7",
     "mobx-react": "^6.3.1",
     "mobx-utils": "^4.0.1",
     "natural-sort": "^1.0.0",
     "node-fetch": "2.7.0",
-    "nodemailer": "^9.0.1",
+    "nodemailer": "^10.0.2",
     "octokit": "^5.0.5",
     "outline-icons": "^4.3.0",
     "oy-vey": "^0.12.1",
@@ -278,7 +278,7 @@
     "zod": "^4.4.3"
   },
   "devDependencies": {
-    "@faker-js/faker": "^8.4.1",
+    "@faker-js/faker": "^10.5.0",
     "@relative-ci/agent": "^4.3.1",
     "@swc/cli": "^0.8.1",
     "@swc/core": "^1.15.32",
@@ -366,7 +366,7 @@
     "typescript": "^6.0.3",
     "unplugin-swc": "^1.5.9",
     "vite-tsconfig-paths": "^6.1.1",
-    "vitest": "^4.1.5"
+    "vitest": "^5.0.2"
   },
   "resolutions": {
     "@types/react": "17.0.91",
