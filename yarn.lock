@@ -8819,9 +8819,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dd-trace@npm:^5.131.1":
-  version: 5.132.0
-  resolution: "dd-trace@npm:5.132.0"
+"dd-trace@npm:^6.23.0":
+  version: 6.23.0
+  resolution: "dd-trace@npm:6.23.0"
   dependencies:
     "@datadog/libdatadog": "npm:^0.21.0"
     "@datadog/libdatadog-extras": "npm:^0.21.0"
@@ -8833,7 +8833,7 @@ __metadata:
     "@opentelemetry/api": "npm:>=1.0.0 <1.10.0"
     "@opentelemetry/api-logs": "npm:<1.0.0"
     dc-polyfill: "npm:^0.1.11"
-    import-in-the-middle: "npm:3.5.1"
+    import-in-the-middle: "npm:3.5.3"
     opentracing: "npm:>=0.14.7"
     oxc-parser: "npm:^0.132.0"
   dependenciesMeta:
@@ -8857,7 +8857,7 @@ __metadata:
       optional: true
     oxc-parser:
       optional: true
-  checksum: 10c0/7ba1b243647d0830aa9b30778d8afb0304330425cbba9e2558c8103ebc61fb69451be4e48a1de873fb132e86f0fa9003ca0226a80c1b2c37ca97b37ff4d99a16
+  checksum: 10c0/107313bbc297a0b266f4a9010ec6f8257d8b1d31a8651b0efe7fb42546ef9a8c1df2f7ea1b9a637e7c77088cb6b04bb8d6be8eba6163cf9ee37c849cd44a3a67
   languageName: node
   linkType: hard
 
@@ -9586,6 +9586,13 @@ __metadata:
   version: 3.0.2
   resolution: "es-module-lexer@npm:3.0.2"
   checksum: 10c0/b04a0a5f5c2785e3edd53dcb5e4e9cfb7b8523d4cf9bf8b3abd6e1aaa7c4401f9d9174fb9a3c9374f0b4ca7f75487c3ff9b97f39f341507afa8ddf49ba37c56b
+  languageName: node
+  linkType: hard
+
+"es-module-lexer@npm:^3.0.3":
+  version: 3.0.4
+  resolution: "es-module-lexer@npm:3.0.4"
+  checksum: 10c0/6e89027c3ce2e78c577bee234d3cf9e41035b6622cc2d399bffda322556f09735a864b3c7729da8528c96ec8cf00d93d7d418cdedb6765e9e4d228954fbfde3d
   languageName: node
   linkType: hard
 
@@ -11224,7 +11231,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"import-in-the-middle@npm:3.5.1, import-in-the-middle@npm:^3.0.0":
+"import-in-the-middle@npm:3.5.3":
+  version: 3.5.3
+  resolution: "import-in-the-middle@npm:3.5.3"
+  dependencies:
+    cjs-module-lexer: "npm:^2.2.0"
+    es-module-lexer: "npm:^3.0.3"
+    module-details-from-path: "npm:^1.0.4"
+  checksum: 10c0/f342bb5b83d2c7e2e7c3f87832f6ee020c15b0c478895e4a597524d7827a51e206acba2755fedc346026eb9d7748bc89c7eda7b289a10e13a84f9f35eb60ea34
+  languageName: node
+  linkType: hard
+
+"import-in-the-middle@npm:^3.0.0":
   version: 3.5.1
   resolution: "import-in-the-middle@npm:3.5.1"
   dependencies:
@@ -11374,9 +11392,9 @@ __metadata:
   linkType: hard
 
 "ip-address@npm:^10.0.1":
-  version: 10.7.2
-  resolution: "ip-address@npm:10.7.2"
-  checksum: 10c0/290b9c63289b2a89a442dac19eff88d919e65cd41d1a720fa963be736e126f3b0cf4f88f6056b06abbf4a95300dc9ce5362a773e012ef30e0400074d175b9d31
+  version: 10.7.5
+  resolution: "ip-address@npm:10.7.5"
+  checksum: 10c0/0213462eada955051a4d5927a62f6613b7bf0f4b426347641491ef9c8498ee6e1ef0bcbe1455382de6d61771b0ab4a344919102d4b614d284161ed8df620125f
   languageName: node
   linkType: hard
 
@@ -14044,7 +14062,7 @@ __metadata:
     copy-to-clipboard: "npm:^3.3.3"
     core-js: "npm:^3.51.0"
     date-fns: "npm:^3.6.0"
-    dd-trace: "npm:^5.131.1"
+    dd-trace: "npm:^6.23.0"
     diff: "npm:^5.2.2"
     discord-api-types: "npm:^0.38.48"
     email-providers: "npm:^1.14.0"
@@ -15468,12 +15486,12 @@ __metadata:
   linkType: hard
 
 "qs@npm:^6.14.0, qs@npm:^6.5.2":
-  version: 6.16.1
-  resolution: "qs@npm:6.16.1"
+  version: 6.17.0
+  resolution: "qs@npm:6.17.0"
   dependencies:
     es-define-property: "npm:^1.0.1"
     side-channel: "npm:^1.1.1"
-  checksum: 10c0/84ee9124b251ab2953132fbea1d70c966aa6e6496cccabedbbb83afa412bf4177bddebc779ca3ddafe23da83b2f593d530b41be6a726e971404fabb20ff22c94
+  checksum: 10c0/62d59fddc00fa6e141a8b3de78df89bb5863a02346af844403c6ad3b1d175b236602df293c1f2c0fa010b95ea862cacef337f108a2eef0a34556897454fcebe6
   languageName: node
   linkType: hard
 
@@ -16639,9 +16657,9 @@ __metadata:
   linkType: hard
 
 "serialize-javascript@npm:^7.0.3":
-  version: 7.0.5
-  resolution: "serialize-javascript@npm:7.0.5"
-  checksum: 10c0/7b7818e5267f6d474ec7a56d36ba69dd712726a13eab37706ec94615fb7ca8945471f2b7fb0dc9dbe8c79c1930c1079d97f66f91315c8c8c2ca6c38898cec96f
+  version: 7.1.4
+  resolution: "serialize-javascript@npm:7.1.4"
+  checksum: 10c0/aece56a71a7fc54d51af3c49ef18cc8c47caa2815210709ab585c0b5e72f1e90969bd6c7947cf95e2f8e93d15595ae80ce7137800465b5fa61812693bf7e63ac
   languageName: node
   linkType: hard
 
